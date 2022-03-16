@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from imagediagnostics.in/services/radiology.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 16:37:39 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Image Diagnostics</title>
+
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/list.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+
+    <script defer src="./js/jquery.min.js"></script>
+    <script defer src="./js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="subHeader">
+            <div class="subHeaderInner">
+                <div class="subHeaderLocationHours">
+                    <div class="subHeaderLocationHourSingle">
+                        <div class="subHeaderLocationHourSingleIcon">
+                            <i class="fas fa-map-marker-alt subHeaderLocationHourSingleIco"></i>
+                        </div>
+                        <div class="subHeaderLocationHourSingleText">
+                            <p class="subHeaderLocationHourSingleTxt">No.1073, HBR Layout, Nagawara, Bangalore</p>
+                        </div>
+                    </div>
+                    <div class="subHeaderLocationHourSingle">
+                        <div class="subHeaderLocationHourSingleIcon">
+                            <i class="far fa-clock subHeaderLocationHourSingleIco"></i>
+                        </div>
+                        <div class="subHeaderLocationHourSingleText">
+                            <p class="subHeaderLocationHourSingleTxt">Working Hours: 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subHeaderFollowAppointment">
+                    <div class="subHeaderFollow">
+                        <a class="subHeaderFollowSingle" href="https://www.facebook.com/image.diagnosticsblr/"
+                            target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-facebook-f subHeaderFollowSingleIcoFb"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://www.linkedin.com/in/image-diagnostics-a3305311b/"
+                            target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-linkedin-in subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://twitter.com/imagediagnos" target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-twitter subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://goo.gl/maps/mYRZZhg2R3Hnmkzy9" target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-google subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="subHeaderAppointment">
+                        <a class="subHeaderAppointmentText" target="_blank"
+                            href="http://106.51.158.132/patientlogin/LoginPage.aspx">
+                            <p class="subHeaderAppointmentTxt">patient login / reports</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainHeader">
+            <div class="mainHeaderInner">
+                <div class="mainHeaderLogo">
+                    <img src="./images/header-logo.png" class="mainHeaderLogoImg" />
+                </div>
+
+                <div class="mainHeaderNav">
+                    <a class="mainHeaderNavSingle" href="./index-2.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">home</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="./about-us.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">about us</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="./our-services.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">our services</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="./contact-us.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">contact us</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mobileNav">
+                <div class="mobileNavInner">
+                    <div class="mobileNavButton" onclick="toggleMobileNav()">
+                        <i class="fas fa-bars mobileNavButtonIco"></i>
+                    </div>
+
+                    <div class="mobileNavOptions" id="mobileNavOptions">
+                        <div class="mobileNavOptionsArrow">
+                            <i class="fas fa-sort-up mobileNavOptionsArrowIco"></i>
+                        </div>
+                        <div class="mobileNavOptionsInner">
+                            <div class="mobileNavOptionsMain">
+                                <a href="./index-2.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Home</p>
+                                </a>
+                                <a href="./about-us.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">About Us</p>
+                                </a>
+                                <a href="./our-services.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Our Services</p>
+                                </a>
+                                <a href="./contact-us.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="headerHighlights">
+        <div class="headerHighlightsInner">
+            <div class="headerHighlightsMain">
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="far fa-building headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">BEST DIAGNOSTIC CENTER</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">IN HBR LAYOUT, BANGALORE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="far fa-building headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">21st CENTURY TECHNOLOGY</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">TO MEET INDIVIDUAL NEEDS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="far fa-building headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">MAKE APPOINTMENTS ONLINE</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">GET INSTANT CONFIRMATION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="headerHighlightsCall">
+                <div class="headerHighlightsCallInner">
+                    <div class="headerHighlightsCallLable">
+                        <p class="headerHighlightsCallLableTxt">call us on</p>
+                    </div>
+                    <div class="headerHighlightsCallNumber">
+                        <p class="headerHighlightsCallNumberTxt">080 4555 9999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sitemap">
+        <div class="sitemapInner">
+            <div class="sitemapTitle">
+                <p class="sitemapTitleTxt">Master Health Checkup</p>
+            </div>
+            <div class="sitemapContent">
+                <div class="sitemapContentInner">
+                    <div class="sitemapContentPrimary">
+                        <div class="sitemapContentRootIcon">
+                            <i class="fas fa-home sitemapContentRootIco"></i>
+                        </div>
+                        <div class="sitemapContentRootText">
+                            <a class="sitemapContentRootTxt" href="./index-2.html">home</a>
+                        </div>
+                    </div>
+                    <div class="sitemapContentSecondary">
+                        <div class="sitemapContentSecondaryText">
+                            <a class="sitemapContentSecondaryTxt" href="master-health-checkup.html">master health checkup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="serviceDetailPage">
+        <div class="serviceDetailPageInner">
+            <div class="serviceDetailPageLeft">
+                <div class="serviceDetailPageOtherServices">
+                    <div class="contactPageForm">
+                        <div class="contactPageFormInner">
+                            <div class="contactPageFormHeadings">
+                                <div class="contactPageFormHeading">
+                                    <p class="contactPageFormHeadingTxt">Book An Appointment</p>
+                                </div>
+                            </div>
+        
+                            <div class="contactPageFormMain">
+                                <div class="contactPageFormStep">
+                                    <div class="contactPageFormStepLable">
+                                        <p class="contactPageFormStepLableTxt">Full Name</p>
+                                    </div>
+                                    <div class="contactPageFormStepInput">
+                                        <input type="text" class="contactPageFormStepInputTxt"
+                                            placeholder="Please Enter Your Name" id="name" name="name" />
+                                    </div>
+                                </div>
+                                <div class="contactPageFormStep">
+                                    <div class="contactPageFormStepLable">
+                                        <p class="contactPageFormStepLableTxt">Email ID</p>
+                                    </div>
+                                    <div class="contactPageFormStepInput">
+                                        <input type="email" class="contactPageFormStepInputTxt"
+                                            placeholder="Please Enter Your Email ID" id="email_id" name="email_id" />
+                                    </div>
+                                </div>
+                                <div class="contactPageFormStep">
+                                    <div class="contactPageFormStepLable">
+                                        <p class="contactPageFormStepLableTxt">Phone Number</p>
+                                    </div>
+                                    <div class="contactPageFormStepInput">
+                                        <input type="tel" class="contactPageFormStepInputTxt"
+                                            placeholder="Please Enter Your Phone Number" id="phone_number"
+                                            name="phone_number" />
+                                    </div>
+                                </div>
+                                <div class="contactPageFormStep">
+                                    <div class="contactPageFormStepLable">
+                                        <p class="contactPageFormStepLableTxt">Date</p>
+                                    </div>
+                                    <div class="contactPageFormStepInput">
+                                        <input type="date" class="contactPageFormStepInputTxt"
+                                            id="date"
+                                            name="date" />
+                                    </div>
+                                </div>
+                                <div class="contactPageFormStep">
+                                    <buttun class="contactPageFormStepInputAction" onclick="sendEmail()">submit</buttun>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="serviceDetailPageContact">
+                    <div class="serviceDetailPageContactIcon">
+                        <i class="fas fa-headset serviceDetailPageContactIco"></i>
+                    </div>
+                    <div class="serviceDetailPageContactDetails">
+                        <div class="serviceDetailPageContactDetailsHeading">
+                            <p class="serviceDetailPageContactDetailsHeadingTxt">Let’s Help You!</p>
+                        </div>
+                        <div class="serviceDetailPageContactDetailsDescription">
+                            <p class="serviceDetailPageContactDetailsDescriptionTxt">No.1073, 1st Stage, 5th Block, HBR
+                                Layout, Nagawara, Near Manyata Tech Park, Bangalore - 560045</p>
+                        </div>
+                        <div class="serviceDetailPageContactDetailsAction">
+                            <a class="serviceDetailPageContactDetailsActionTxt" href="./contact-us.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="serviceDetailPageRight">
+                <div class="serviceDetailPageCover">
+                    <div class="serviceDetailPageCoverImage">
+                        <img src="./images/radiology-banner.jpg" class="serviceDetailPageCoverImg" />
+                    </div>
+                </div>
+
+                <div class="serviceDetailPageContent">
+                    <div class="serviceDetailPageContentHeading">
+                        <p class="serviceDetailPageContentHeadingTxt">Master Health Checkup</p>
+                    </div>
+                    <div class="serviceDetailPageContentDescription">
+                        <p class="serviceDetailPageContentDescriptionTxt">A step forward from basic (preventive health check) to know further about body systems’ health status.</p>
+                    </div>
+                </div>
+
+                <div class="serviceDetailPageContent">
+                    <div class="serviceDetailPageContentHeading">
+                        <p class="serviceDetailPageContentHeadingTxt">Appointment Process</p>
+                    </div>
+                    <div class="serviceDetailPageContentDescription">
+                        <p class="serviceDetailPageContentDescriptionTxt">Fill up the Appointment Form to book a consultation with an expert consultant, our healthcare representative will get in touch with you.</p>
+                    </div>
+                </div>
+
+                <div class="serviceDetailPageIncludes">
+                    <div class="serviceDetailPageIncludesHeading">
+                        <p class="serviceDetailPageIncludesHeadingTxt">Master Health Checkup includes</p>
+                    </div>
+                    
+                    <div>
+                        <ul>
+                            <li style="--accent-color:#41516C">
+                                <div class="date">Complete blood count with ESR</div>
+                                <!-- <div class="title">Title 1</div> -->
+                                <div class="descr">
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Haemoglobin</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Total WBC Count</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Differential Count</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Red Blood Cell Count (RBC)</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Packed Cell Value</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Platelet Count</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">MCV</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">MCH</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">MCHC</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Red Cell Distribution Width (RDW)</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">ESR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="--accent-color:#FBCA3E">
+                                <div class="date">Fasting Blood Sugar</div>
+                            </li>
+                            <li style="--accent-color:#E24A68">
+                                <div class="date">Post Prandial Blood Sugar</div>
+                            </li>
+                            <li style="--accent-color:#1B5F8C">
+                                <div class="date">Lipid Profile</div>
+                                <div class="descr">
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Total Cholesterol</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Serum Triglycerides </p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Direct HDL</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">LDL</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">VLDL</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">Cholesterol / HDL Ratio</p>
+                                        </div>
+                                    </div>
+                                    <div class="serviceDetailPageIncludesListSingle">
+                                        <div class="serviceDetailPageIncludesListSingleIcon">
+                                            <i class="fas fa-arrow-circle-right serviceDetailPageIncludesListSingleIco"></i>
+                                        </div>
+                                        <div class="serviceDetailPageIncludesListSingleText">
+                                            <p class="serviceDetailPageIncludesListSingleTxt">LDL/HDL Ration</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+                            <li style="--accent-color:#4CAD89">
+                                <div class="date">S. Creatinine </div>
+                            </li>
+                            <li style="--accent-color:#5D4CAD">
+                                <div class="date">Total Bilirubin </div>
+                            </li>
+                            <li style="--accent-color:#AD4CA7">
+                                <div class="date">Direct Bilirubin </div>
+                            </li>
+                            <li style="--accent-color:#AD4C55">
+                                <div class="date">Indirect Bilirubin </div>
+                            </li>
+                            <li style="--accent-color:#7DAD4C">
+                                <div class="date">SGOT </div>
+                            </li>
+                            <li style="--accent-color:#AD904C">
+                                <div class="date">TSH </div>
+                            </li>
+                            <li style="--accent-color:#838A27">
+                                <div class="date">Complete Urine Examination </div>
+                            </li>
+                            <li style="--accent-color:#A80909">
+                                <div class="date">ECG </div>
+                            </li>
+                            <li style="--accent-color:#80280E">
+                                <div class="date">TMT or ECHO </div>
+                            </li>
+                            <li style="--accent-color:#4C84AD">
+                                <div class="date">Chest X-ray </div>
+                            </li>
+                            <li style="--accent-color:#4CAD76">
+                                <div class="date">Physician consultation with reports </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contactHighlights">
+        <div class="contactHighlightsInner">
+            <div class="contactHighlightSingle phoneNumber">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="fas fa-phone-alt contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">080 4555 9999</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">Have a question? Call us now.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactHighlightSingle emailId">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="far fa-envelope-open contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">info@imagediagnostics.in</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">Need support? Drop us an
+                                    email.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactHighlightSingle workingHours">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="far fa-clock contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">Mon-Sun 24/7</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">At your service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerInner">
+
+            <div class="footerContent">
+                <div class="footerAbout">
+                    <div class="footerAboutHeading">
+                        <p class="footerAboutHeadingTxt">About Image Diagnostics</p>
+                    </div>
+                    <div class="footerAboutDescription">
+                        <p class="footerAboutDescriptionTxt">Image diagnostics centre is one of the leading and top
+                            diagnostic centre. It has been successful in providing state of the art quality images for
+                            accurate diagnosis and is known for its 24/7 assistance.</p>
+                        <p class="footerAboutDescriptionTxt">This NABL accredited diagnostic centre stands out by using
+                            the most advanced technology, scanning equipment and more importantly providing a
+                            compassionate environment where customers safety takes precedence over everything else.</p>
+                    </div>
+
+                    <div class="footerAboutFollow">
+                        <a class="footerAboutFollowSingle" href="https://www.facebook.com/image.diagnosticsblr/"
+                            target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-facebook-f footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <!--<div class="footerAboutFollowSingle">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-instagram footerAboutFollowSingleIco"></i>
+                            </div>
+                        </div>
+                        <div class="footerAboutFollowSingle">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-whatsapp footerAboutFollowSingleIco"></i>
+                            </div>
+                        </div>-->
+                        <a class="footerAboutFollowSingle"
+                            href="https://www.linkedin.com/in/image-diagnostics-a3305311b/" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-linkedin-in footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="footerAboutFollowSingle" href="https://twitter.com/imagediagnos" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-twitter footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="footerAboutFollowSingle" href="https://goo.gl/maps/mYRZZhg2R3Hnmkzy9" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-google footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footerQuickLinks">
+                    <div class="footerQuickLinksHeading">
+                        <p class="footerQuickLinksHeadingTxt">Quick Links</p>
+                    </div>
+                    <div class="footerQuickLinksList">
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="./index-2.html">home</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="./about-us.html">about us</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="./our-services.html">our services</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="./contact-us.html">contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerServices">
+                    <div class="footerServicesHeading">
+                        <p class="footerServicesHeadingTxt">Our Services</p>
+                    </div>
+
+                    <div class="footerServicesList">
+                        <div class="footerServicesListLeft">
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="radiology.html">Radiology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="cardiology.html">Cardiology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="neurology.html">Neurology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="laboratory.html">Laboratory</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerServicesListRight">
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt" href="dental.html">Dental</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="pharmacy.html">Pharmacy</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="physiotherapy.html">Physiotherapy</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="dialysis.html">Dialysis</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footerCopyrightLookitLive">
+                <div class="footerCopyright">
+                    <p class="footerCopyrightTxt">Copyright &copy; 2021, All Rights Reserved Image Diagnostics.</p>
+                </div>
+                <div class="footerLookitLive">
+                    <p class="footerLookitLiveTxt">Designed By: <span class="highlight">LookitLive</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!-- Mirrored from imagediagnostics.in/services/radiology.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 16:37:40 GMT -->
+</html>

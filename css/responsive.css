@@ -1,0 +1,13 @@
+@media(max-width: 450px){
+    .serviceDetailPageLeft {
+        display: block;
+        position: static;
+        top: 0px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .serviceDetailPageContentHeadingTxt, .serviceDetailPageIncludesHeadingTxt {
+        font-size: 1.6em;
+    }
+}

@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from imagediagnostics.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 16:35:26 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Image Diagnostics</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="subHeader">
+            <div class="subHeaderInner">
+                <div class="subHeaderLocationHours">
+                    <div class="subHeaderLocationHourSingle">
+                        <div class="subHeaderLocationHourSingleIcon">
+                            <i class="fas fa-map-marker-alt subHeaderLocationHourSingleIco"></i>
+                        </div>
+                        <div class="subHeaderLocationHourSingleText">
+                            <p class="subHeaderLocationHourSingleTxt">No.1073, HBR Layout, Nagawara, Bangalore</p>
+                        </div>
+                    </div>
+                    <div class="subHeaderLocationHourSingle">
+                        <div class="subHeaderLocationHourSingleIcon">
+                            <i class="far fa-clock subHeaderLocationHourSingleIco"></i>
+                        </div>
+                        <div class="subHeaderLocationHourSingleText">
+                            <p class="subHeaderLocationHourSingleTxt">Working Hours: 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subHeaderFollowAppointment">
+                    <div class="subHeaderFollow">
+                        <a class="subHeaderFollowSingle" href="https://www.facebook.com/image.diagnosticsblr/"
+                            target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-facebook-f subHeaderFollowSingleIcoFb"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://www.linkedin.com/in/image-diagnostics-a3305311b/"
+                            target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-linkedin-in subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://twitter.com/imagediagnos" target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-twitter subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="subHeaderFollowSingle" href="https://goo.gl/maps/mYRZZhg2R3Hnmkzy9" target="_blank">
+                            <div class="subHeaderFollowSingleIcon">
+                                <i class="fab fa-google subHeaderFollowSingleIco"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="subHeaderAppointment">
+                        <a class="subHeaderAppointmentText" target="_blank"
+                            href="http://106.51.158.132/patientlogin/LoginPage.aspx">
+                            <p class="subHeaderAppointmentTxt">patient login / reports</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainHeader">
+            <div class="mainHeaderInner">
+                <div class="mainHeaderLogo">
+                    <img src="images/header-logo.png" class="mainHeaderLogoImg" />
+                </div>
+
+                <div class="mainHeaderNav">
+                    <a class="mainHeaderNavSingle active" href="index-2.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">home</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="about-us.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">about us</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="our-services.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">our services</p>
+                        </div>
+                    </a>
+                    <a class="mainHeaderNavSingle" href="contact-us.html">
+                        <div class="mainHeaderNavSingleDecoration">
+                            <div class="mainHeaderNavSingleDecorationInner">
+                                <div class="mainHeaderNavSingleDecorationLine">
+                                    <div class="mainHeaderNavSingleDecorationBubble">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainHeaderNavSingleText">
+                            <p class="mainHeaderNavSingleTxt">contact us</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mobileNav">
+                <div class="mobileNavInner">
+                    <div class="mobileNavButton" onclick="toggleMobileNav()">
+                        <i class="fas fa-bars mobileNavButtonIco"></i>
+                    </div>
+
+                    <div class="mobileNavOptions" id="mobileNavOptions">
+                        <div class="mobileNavOptionsArrow">
+                            <i class="fas fa-sort-up mobileNavOptionsArrowIco"></i>
+                        </div>
+                        <div class="mobileNavOptionsInner">
+                            <div class="mobileNavOptionsMain">
+                                <a href="index-2.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Home</p>
+                                </a>
+                                <a href="about-us.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">About Us</p>
+                                </a>
+                                <a href="our-services.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Our Services</p>
+                                </a>
+                                <a href="contact-us.html" class="mobileNavOption">
+                                    <p class="mobileNavOptionTxt">Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerHighlights">
+        <div class="headerHighlightsInner">
+            <div class="headerHighlightsMain">
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="fas fa-award headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">BEST DIAGNOSTIC CENTER</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">IN HBR LAYOUT, BANGALORE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="fas fa-laptop headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">21st CENTURY TECHNOLOGY</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">TO MEET INDIVIDUAL NEEDS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerHighlightSingle">
+                    <div class="headerHighlightSingleIcon">
+                        <div class="headerHighlightSingleIconInner">
+                            <i class="far fa-calendar-alt headerHighlightSingleIco"></i>
+                        </div>
+                    </div>
+                    <div class="headerHighlightSingleContent">
+                        <div class="headerHighlightSingleContentLable">
+                            <p class="headerHighlightSingleContentLableTxt">MAKE APPOINTMENTS ONLINE</p>
+                        </div>
+                        <div class="headerHighlightSingleContentDescription">
+                            <p class="headerHighlightSingleContentDescriptionTxt">GET INSTANT CONFIRMATION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="headerHighlightsCall">
+                <div class="headerHighlightsCallInner">
+                    <div class="headerHighlightsCallLable">
+                        <p class="headerHighlightsCallLableTxt">call us on</p>
+                    </div>
+                    <div class="headerHighlightsCallNumber">
+                        <p class="headerHighlightsCallNumberTxt">080 4555 9999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="bannerInner">
+            <div class="bannerSingle">
+                <div class="bannerSingleImage">
+                    <img src="images/slider.jpg" class="bannerSingleImg" />
+                    <div class="bannerSingleImageOverlay">&nbsp;</div>
+                </div>
+                <div class="bannerSingleContent">
+                    <div class="bannerSingleContentInner">
+                        <div class="bannerSingleContentHeading">
+                            <p class="bannerSingleContentHeadingTxt">lead by passionate experts</p>
+                        </div>
+                        <div class="bannerSingleContentTagline">
+                            <p class="bannerSingleContentTaglineTxt">We at <span
+                                    class="bannerSingleContentTaglineCapitalTxt">image diagnostics</span> welcomes you!
+                            </p>
+                        </div>
+                        <div class="bannerSingleContentCaption">
+                            <p class="bannerSingleContentCaptionTxt">a medical <span
+                                    class="bannerSingleContentCaptionPrimaryTxt">care</span><br />you can always trust!
+                            </p>
+                        </div>
+                        <div class="bannerSingleContentAction">
+                            <a class="bannerSingleContentActionTxt" href="contact-us.html">make an appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homeHighlights">
+        <div class="homeHighlightsInner">
+            <div class="homeHighlightSingle">
+                <div class="homeHighlightSingleInner">
+                    <div class="homeHighlightIcon">
+                        <i class="fas fa-user-md homeHighlightIco"></i>
+                    </div>
+                    <div class="homeHighlightHeading">
+                        <p class="homeHighlightHeadingTxt">Qualified Doctors</p>
+                    </div>
+                    <div class="homeHighlightContent">
+                        <p class="homeHighlightContentTxt">We have a dedicated team of full time and visiting
+                            consultants to focus on important diagnostics and research. Our doctors are highly qualified
+                            and committed to excellence.</p>
+                    </div>
+                    <!--<div class="homeHighlightAction">
+                        <p class="homeHighlightActionTxt">view more</p>
+                    </div>-->
+                </div>
+            </div>
+            <div class="homeHighlightSingle">
+                <div class="homeHighlightSingleInner">
+                    <div class="homeHighlightIcon">
+                        <i class="fas fa-medal homeHighlightIco"></i>
+                    </div>
+                    <div class="homeHighlightHeading">
+                        <p class="homeHighlightHeadingTxt">NABL Accredited</p>
+                    </div>
+                    <div class="homeHighlightContent">
+                        <p class="homeHighlightContentTxt">Image Diagnostics are proud to be recognised as a member of a
+                            global family of accredited testing or calibration laboratory based on third party
+                            assessment.</p>
+                    </div>
+                    <!--<div class="homeHighlightAction">
+                        <p class="homeHighlightActionTxt">view more</p>
+                    </div>-->
+                </div>
+            </div>
+            <div class="homeHighlightSingle">
+                <div class="homeHighlightSingleInner">
+                    <div class="homeHighlightIcon">
+                        <i class="fas fa-clipboard-check homeHighlightIco"></i>
+                    </div>
+                    <div class="homeHighlightHeading">
+                        <p class="homeHighlightHeadingTxt">100% Accuracy</p>
+                    </div>
+                    <div class="homeHighlightContent">
+                        <p class="homeHighlightContentTxt">Yes, You heard it right. Our internal & external experts who
+                            trust us over the years have had totally no adverse feedback on any of our diagnostics to
+                            date.</p>
+                    </div>
+                    <!--<div class="homeHighlightAction">
+                        <p class="homeHighlightActionTxt">view more</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homeAboutUs">
+        <div class="homeAboutUsInner">
+            <div class="homeAboutUsContent">
+                <div class="homeAboutUsContentInner">
+                    <div class="homeAboutUsContentSectionLable">
+                        <p class="homeAboutUsContentSectionLableTxt">about image diagnostics</p>
+                    </div>
+                    <div class="homeAboutUsContentSectionHeading">
+                        <p class="homeAboutUsContentSectionHeadingTxt">We're Setting the Standards in Research &
+                            Diagnostics!</p>
+                    </div>
+                    <div class="homeAboutUsContentDescription">
+                        <p class="homeAboutUsContentDescriptionTxt">At Image Diagnostics, we are proud to offer
+                            diagnostic services by using the most advanced technology and state of the art equipment to
+                            ensure better results for our patients. Our highly trained professionals utilize the most
+                            advanced 21st Century technology to meet the individual needs of each patient and physician.
+                            The result is the highest quality of images, which allow our team of radiologists to make an
+                            accurate diagnosis in turn helping you get the best treatment possible.</p>
+                    </div>
+
+                    <div class="homeAboutUsContentFeatures">
+                        <div class="homeAboutUsContentFeaturesLable">
+                            <p class="homeAboutUsContentFeaturesLableTxt">our special features</p>
+                        </div>
+                        <div class="homeAboutUsContentFeaturesList">
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">ISO Certified</p>
+                                </div>
+                            </div>
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">Quick Turnaround Time</p>
+                                </div>
+                            </div>
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">Dedicated Staff</p>
+                                </div>
+                            </div>
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">Blood Reports In 30 Mins</p>
+                                </div>
+                            </div>
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">AI Enabled Machines</p>
+                                </div>
+                            </div>
+                            <div class="homeAboutUsContentFeatureSingle">
+                                <div class="homeAboutUsContentFeatureSingleIcon">
+                                    <div class="homeAboutUsContentFeatureSingleIconInner">
+                                        <i class="fas fa-arrow-circle-right homeAboutUsContentFeatureSingleIco"></i>
+                                    </div>
+                                </div>
+                                <div class="homeAboutUsContentFeatureSingleText">
+                                    <p class="homeAboutUsContentFeatureSingleTxt">No Adverse Feedback</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="homeAboutUsContentActions">
+                        <a class="homeAboutUsContentActionSecondary" href="about-us.html">view more</a>
+                        <a class="homeAboutUsContentActionPrimary" href="contact-us.html">contact us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="homeAboutUsVisual">
+                <div class="homeAboutUsVisualInner">
+                    <div class="homeAboutUsVisualImage">
+                        <img src="images/about-us.jpg" class="homeAboutUsVisualImg" />
+                    </div>
+
+                    <div class="homeAboutUsVisualImageDecorator">
+                        <img src="images/about-us-cover-decorator.jpg" class="homeAboutUsVisualImageDecoratorImg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="poweredByHome">
+        <div class="poweredByHomeCover">
+            <div class="poweredByHomeCoverImage">
+                <img src="images/powered-by-cover.jpg" class="poweredByHomeCoverImg" />
+            </div>
+        </div>
+
+        <div class="poweredByHomeDetails">
+            <div class="poweredByHomeDetailsInner">
+                <div class="poweredByHomeDetailsSubHeading">
+                    <p class="poweredByHomeDetailsSubHeadingTxt">great stats</p>
+                </div>
+                <div class="poweredByHomeDetailsHeading">
+                    <p class="poweredByHomeDetailsHeadingTxt">Powered By Over 3L Patients Trust Us With Their
+                        Sweet Love.</p>
+                </div>
+
+                <div class="poweredByHomeDetailsNumbers">
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fas fa-procedures"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">25k+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">MRI Scan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fab fa-buffer"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">12k+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">CT Scan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fas fa-file-medical-alt"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">28k+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">X-Ray</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fas fa-laptop-medical"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">60k+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">USG Scan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fas fa-chalkboard-teacher"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">6k+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">ECG Scan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poweredByHomeDetailsNumberSingle">
+                        <div class="poweredByHomeDetailsNumberSingleInner">
+                            <div class="poweredByHomeDetailsNumberSingleIconMain">
+                                <div class="poweredByHomeDetailsNumberSingleIcon">
+                                    <i class="poweredByHomeDetailsNumberSingleIco fas fa-vial"></i>
+                                </div>
+                            </div>
+                            <div class="poweredByHomeDetailsNumberSingleContent">
+                                <div class="poweredByHomeDetailsNumberSingleContentNumber">
+                                    <p class="poweredByHomeDetailsNumberSingleContentNumberTxt">1.8L+</p>
+                                </div>
+                                <div class="poweredByHomeDetailsNumberSingleContentLable">
+                                    <p class="poweredByHomeDetailsNumberSingleContentLableTxt">Lab Tests</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="whatWeOffer">
+        <div class="whatWeOfferInner">
+            <div class="whatWeOfferHeadings">
+                <div class="whatWeOfferHeadingsMain">
+                    <div class="whatWeOfferSubHeading">
+                        <p class="whatWeOfferSubHeadingTxt">what we offer?</p>
+                    </div>
+                    <div class="whatWeOfferHeading">
+                        <p class="whatWeOfferHeadingTxt">We Provide Assistance in Various Directions</p>
+                    </div>
+                    <div class="whatWeOfferDescription">
+                        <p class="whatWeOfferDescriptionTxt">Contact us through any suitable and convenient way and make
+                            an appointment with the doctor to get much-needed assistance and help.</p>
+                    </div>
+                </div>
+
+                <div class="whatWeOfferHeadingAction">
+                    <div class="whatWeOfferHeadingActionMain">
+                        <a class="whatWeOfferHeadingActionTxt" href="our-services.html">view more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="whatWeOfferContent">
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-procedures"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Radiology</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Radiology is a branch of medicine that
+                                uses imaging technology to diagnose and treat disease.
+                            </p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/radiology.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-heartbeat"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Cardiology</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Cardiology is the study and treatment of
+                                disorders of the heart and the blood vessels. </p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/cardiology.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-laptop-medical"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Neurology</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Neurology is the branch of medicine
+                                concerned with the study and treatment of disorders of the nervous system.</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/neurology.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-vial"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Laboratory</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Place where scientific research and
+                                development is conducted &amp; analyses performed.
+                            </p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/laboratory.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-tooth"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Dental</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Today's dental diagnosis and testing
+                                ranges from lasers that can detect tooth decay earlier than ever before.
+                            </p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/dental.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatWeOfferContentSingle">
+                    <div class="whatWeOfferContentSingleInner">
+                        <div class="whatWeOfferContentSingleIcon">
+                            <div class="whatWeOfferContentSingleIconMain">
+                                <i class="whatWeOfferContentSingleIco fas fa-clinic-medical"></i>
+                            </div>
+                        </div>
+                        <div class="whatWeOfferContentSingleHeading">
+                            <p class="whatWeOfferContentSingleHeadingTxt">Pharmacy</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleDescription">
+                            <p class="whatWeOfferContentSingleDescriptionTxt">Pharmacy, the science and art concerned
+                                with the preparation and standardization of drugs.</p>
+                        </div>
+                        <div class="whatWeOfferContentSingleAction">
+                            <a class="whatWeOfferContentSingleActionTxt" href="services/pharmacy.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="healthNeeds">
+        <div class="healthNeedsInner">
+            <div class="healthNeedsContent">
+                <div class="healthNeedsContentSectionHeading">
+                    <p class="healthNeedsContentSectionHeadingTxt">specialized health needs</p>
+                </div>
+                <div class="healthNeedsContentHeading">
+                    <p class="healthNeedsContentHeadingTxt">More Pediatric Specialists, Strong Partnerships, and The
+                        <span class="highlight">Power</span> to Take Care of Your child.
+                    </p>
+                </div>
+                <div class="healthNeedsContentActions">
+                    <a class="healthNeedsContentActionSecondary" href="contact-us.html">appointment</a>
+                    <a class="healthNeedsContentActionPrimary" href="contact-us.html">how can we help you?</a>
+                </div>
+                <div class="healthNeedsContentCall">
+                    <p class="healthNeedsContentCallTxt">OR <span class="highlight">CALL:</span> 080 4555-9999</p>
+                </div>
+            </div>
+
+            <div class="healthNeedsCover">
+                <div class="healthNeedsCoverImage">
+                    <img src="images/health-needs-man.png" class="healthNeedsCoverImg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clients">
+        <div class="clientsContent">
+            <div class="clientsContentInner">
+                <div class="clientsContentMain">
+                    <div class="clientsContentSectionHeading">
+                        <p class="clientsContentSectionHeadingTxt">clients</p>
+                    </div>
+                    <div class="clientsContentHeading">
+                        <p class="clientsContentHeadingTxt">Happy with
+                            Customers & Clients</p>
+                    </div>
+                    <div class="clientsContentDescription">
+                        <p class="clientsContentDescriptionTxt">We at Image Diagnostics believe in nurturing and taking
+                            care of our clients. We understand that every action taken by our members reflects on us,
+                            hence you will find all of our members at top of their game in providing you with the utmost
+                            care and attention you deserve.</p>
+                    </div>
+                    <div class="clientsContentAction">
+                        <a class="clientsContentActionTxt" href="contact-us.html">view more details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clientsContentBg">
+                &nbsp;
+            </div>
+        </div>
+
+        <div class="clientsTestimonials">
+            <div class="clientsTestimonialSingle">
+                <div class="clientsTestimonialSingleUser">
+                    <div class="clientsTestimonialSingleUserImage">
+                        <div class="clientsTestimonialSingleUserImageInner">
+                            <img class="clientsTestimonialSingleUserImg" src="images/testimonials-user.png" />
+                        </div>
+                    </div>
+                    <div class="clientsTestimonialSingleUserDetails">
+                        <div class="clientsTestimonialSingleUserName">
+                            <p class="clientsTestimonialSingleUserNameTxt">Navashakthi Nethralaya</p>
+                        </div>
+                        <div class="clientsTestimonialSingleUserDesignation">
+                            <p class="clientsTestimonialSingleUserDesignationTxt">patient</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clientsTestimonialSingleDetails">
+                    <div class="clientsTestimonialSingleDetailsMain">
+                        <div class="clientsTestimonialSingleDetailsArrow">
+                            <i class="fas fa-caret-left clientsTestimonialSingleDetailsArrowIco"></i>
+                        </div>
+                        <div class="clientsTestimonialSingleDetailsContent">
+                            <p class="clientsTestimonialSingleDetailsContentTxt">Neat and clean place. Also the only
+                                fully equipped lab in this area My family gets all the investigations done here, of
+                                particular importance was the personalized care they give. Even the reports were sent by
+                                email. Many of my patients also use their services and are happy about it.</p>
+
+                            <div class="clientsTestimonialSingleDetailsRating">
+                                <div class="clientsTestimonialSingleDetailsRatingSingle">
+                                    <i class="fas fa-star clientsTestimonialSingleDetailsRatingSingleIco"></i>
+                                </div>
+                                <div class="clientsTestimonialSingleDetailsRatingSingle">
+                                    <i class="fas fa-star clientsTestimonialSingleDetailsRatingSingleIco"></i>
+                                </div>
+                                <div class="clientsTestimonialSingleDetailsRatingSingle">
+                                    <i class="fas fa-star clientsTestimonialSingleDetailsRatingSingleIco"></i>
+                                </div>
+                                <div class="clientsTestimonialSingleDetailsRatingSingle">
+                                    <i class="fas fa-star clientsTestimonialSingleDetailsRatingSingleIco"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="doctors">
+        <div class="doctorsInner">
+            <div class="doctorsHeadings">
+                <div class="doctorSectionHeading">
+                    <p class="doctorSectionHeadingTxt">JUST A PHONE CALL</p>
+                </div>
+                <div class="doctorHeading">
+                    <p class="doctorHeadingTxt">Home Sample Collection Available</p>
+                </div>
+                <div class="doctorDescription">
+                    <p class="doctorDescriptionTxt">You and your health are important to us. We go an extra mile in
+                        customer service by collecting the required samples from your home to provide you with a smooth,
+                        hassle-free experience.</p>
+                </div>
+            </div>
+
+            <!--<div class="doctorsList">
+                <div class="doctorSingle">
+                    <div class="doctorSingleInner">
+                        <div class="doctorSingleImage">
+                            <img src="images/doctor.jpg" class="doctorSingleImg" />
+                        </div>
+                        <div class="doctorSingleDesignation">
+                            <p class="doctorSingleDesignationTxt">Designation</p>
+                        </div>
+                        <div class="doctorSingleName">
+                            <p class="doctorSingleNameTxt">Doctor Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctorSingle">
+                    <div class="doctorSingleInner">
+                        <div class="doctorSingleImage">
+                            <img src="images/doctor.jpg" class="doctorSingleImg" />
+                        </div>
+                        <div class="doctorSingleDesignation">
+                            <p class="doctorSingleDesignationTxt">Designation</p>
+                        </div>
+                        <div class="doctorSingleName">
+                            <p class="doctorSingleNameTxt">Doctor Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctorSingle">
+                    <div class="doctorSingleInner">
+                        <div class="doctorSingleImage">
+                            <img src="images/doctor.jpg" class="doctorSingleImg" />
+                        </div>
+                        <div class="doctorSingleDesignation">
+                            <p class="doctorSingleDesignationTxt">Designation</p>
+                        </div>
+                        <div class="doctorSingleName">
+                            <p class="doctorSingleNameTxt">Doctor Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctorSingle">
+                    <div class="doctorSingleInner">
+                        <div class="doctorSingleImage">
+                            <img src="images/doctor.jpg" class="doctorSingleImg" />
+                        </div>
+                        <div class="doctorSingleDesignation">
+                            <p class="doctorSingleDesignationTxt">Designation</p>
+                        </div>
+                        <div class="doctorSingleName">
+                            <p class="doctorSingleNameTxt">Doctor Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="homeSampleCollectionMain">
+                <div class="homeSampleCollectionImage">
+                    <img src="images/home-sample-collection-vector.jpg" class="homeSampleCollectionImg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactHighlights">
+        <div class="contactHighlightsInner">
+            <div class="contactHighlightSingle phoneNumber">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="fas fa-phone-alt contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">080 4555 9999</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">Have a question? Call us now.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactHighlightSingle emailId">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="far fa-envelope-open contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">info@imagediagnostics.in</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">Need support? Drop us an
+                                    email.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactHighlightSingle workingHours">
+                <div class="contactHighlightSingleInner">
+                    <div class="contactHighlightSingleIcon">
+                        <div class="contactHighlightSingleIconInner">
+                            <i class="far fa-clock contactHighlightSingleIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="contactHighlightSingleDescription">
+                        <div class="contactHighlightSingleDescriptionInner">
+                            <div class="contactHighlightSingleDescriptionHeading">
+                                <p class="contactHighlightSingleDescriptionHeadingTxt">Mon-Sun 24/7</p>
+                            </div>
+                            <div class="contactHighlightSingleDescriptionSubHeading">
+                                <p class="contactHighlightSingleDescriptionSubHeadingTxt">At your service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerInner">
+
+            <div class="footerContent">
+                <div class="footerAbout">
+                    <div class="footerAboutHeading">
+                        <p class="footerAboutHeadingTxt">About Image Diagnostics</p>
+                    </div>
+                    <div class="footerAboutDescription">
+                        <p class="footerAboutDescriptionTxt">Image diagnostics centre is one of the leading and top
+                            diagnostic centre. It has been successful in providing state of the art quality images for
+                            accurate diagnosis and is known for its 24/7 assistance.</p>
+                        <p class="footerAboutDescriptionTxt">This NABL accredited diagnostic centre stands out by using
+                            the most advanced technology, scanning equipment and more importantly providing a
+                            compassionate environment where customers safety takes precedence over everything else.</p>
+                    </div>
+
+                    <div class="footerAboutFollow">
+                        <a class="footerAboutFollowSingle" href="https://www.facebook.com/image.diagnosticsblr/"
+                            target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-facebook-f footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <!--<div class="footerAboutFollowSingle">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-instagram footerAboutFollowSingleIco"></i>
+                            </div>
+                        </div>
+                        <div class="footerAboutFollowSingle">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-whatsapp footerAboutFollowSingleIco"></i>
+                            </div>
+                        </div>-->
+                        <a class="footerAboutFollowSingle"
+                            href="https://www.linkedin.com/in/image-diagnostics-a3305311b/" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-linkedin-in footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="footerAboutFollowSingle" href="https://twitter.com/imagediagnos" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-twitter footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                        <a class="footerAboutFollowSingle" href="https://goo.gl/maps/mYRZZhg2R3Hnmkzy9" target="_blank">
+                            <div class="footerAboutFollowSingleIcon">
+                                <i class="fab fa-google footerAboutFollowSingleIco"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footerQuickLinks">
+                    <div class="footerQuickLinksHeading">
+                        <p class="footerQuickLinksHeadingTxt">Quick Links</p>
+                    </div>
+                    <div class="footerQuickLinksList">
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="index-2.html">home</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="about-us.html">about us</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="our-services.html">our services</a>
+                            </div>
+                        </div>
+                        <div class="footerQuickLinkSingle">
+                            <div class="footerQuickLinkSingleBullet">
+                                <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                            </div>
+                            <div class="footerQuickLinkSingleContent">
+                                <a class="footerQuickLinkSingleContentTxt" href="contact-us.html">contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerServices">
+                    <div class="footerServicesHeading">
+                        <p class="footerServicesHeadingTxt">Our Services</p>
+                    </div>
+
+                    <div class="footerServicesList">
+                        <div class="footerServicesListLeft">
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/radiology.html">Radiology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/cardiology.html">Cardiology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/neurology.html">Neurology</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/laboratory.html">Laboratory</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerServicesListRight">
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt" href="services/dental.html">Dental</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/pharmacy.html">Pharmacy</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/physiotherapy.html">Physiotherapy</a>
+                                </div>
+                            </div>
+                            <div class="footerQuickLinkSingle">
+                                <div class="footerQuickLinkSingleBullet">
+                                    <div class="footerQuickLinkSingleBulletIco">&nbsp;</div>
+                                </div>
+                                <div class="footerQuickLinkSingleContent">
+                                    <a class="footerQuickLinkSingleContentTxt"
+                                        href="services/dialysis.html">Dialysis</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footerCopyrightLookitLive">
+                <div class="footerCopyright">
+                    <p class="footerCopyrightTxt">Copyright &copy; 2021, All Rights Reserved Image Diagnostics.</p>
+                </div>
+                <div class="footerLookitLive">
+                    <p class="footerLookitLiveTxt">Designed By: <span class="highlight">LookitLive</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!-- Mirrored from imagediagnostics.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 16:35:37 GMT -->
+</html>
