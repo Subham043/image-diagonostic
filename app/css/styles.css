@@ -1,0 +1,750 @@
+*{padding: 0px;margin: 0px;border:0px;font-family: 'Saira Medium';list-style-type: none;box-sizing: border-box;outline: 0px;}
+a{text-decoration: none;}
+
+@font-face {
+    font-family: 'Saira Thin';
+    src: local('Saira Thin'), url('../fonts/Saira-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Light';
+    src: local('Saira Light'), url('../fonts/Saira-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Extra Light';
+    src: local('Saira Extra Light'), url('../fonts/Saira-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Regular';
+    src: local('Saira Regular'), url('../fonts/Saira-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Medium';
+    src: local('Saira Medium'), url('../fonts/Saira-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Semi Bold';
+    src: local('Saira Semi Bold'), url('../fonts/Saira-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Bold';
+    src: local('Saira Bold'), url('../fonts/Saira-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Extra Bold';
+    src: local('Saira Extra Bold'), url('../fonts/Saira-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira Black';
+    src: local('Saira Black'), url('../fonts/Saira-Black.ttf') format('truetype');
+}
+
+body{float: left;}
+
+/*home starts*/
+
+.header{width: 100%;float: left;position: sticky;top: 0px;z-index: 99;}
+.subHeader{width: 100%;float: left;display: flex;justify-content: center;height: 44px;background: #074148;}
+.subHeaderInner{width: 1100px;float: left;height: 100%;}
+.subHeaderLocationHours{float: left;height: 100%;display: flex;align-items: center;}
+.subHeaderLocationHourSingle{float: left;margin-right: 30px;}
+.subHeaderLocationHourSingle:last-child{margin: 0px;}
+.subHeaderLocationHourSingleIcon{float: left;margin-right: 10px;}
+.subHeaderLocationHourSingleIco{float: left;color: #4abecd;font-size: 1.2em;}
+.subHeaderLocationHourSingleText{float: left;}
+.subHeaderLocationHourSingleTxt{float: left;font-size: 0.8em;color: #fff;}
+
+.subHeaderFollowAppointment{float: right;height: 100%;}
+.subHeaderFollow{float: left;height: 100%;}
+.subHeaderFollowSingle{float: left;height: 100%;margin-right: 20px;display: flex;align-items: center;}
+.subHeaderFollowSingleIcon{float: left;}
+.subHeaderFollowSingleIcoFb{float: left;color: #fff;font-size: 1.2em;margin-top: -2px;}
+.subHeaderFollowSingleIco{float: left;color: #fff;font-size: 1.4em;}
+
+.subHeaderAppointment{float: left;background: #299ead;height: 100%;width:210px;display: flex;align-items: center;justify-content: center;}
+.subHeaderAppointmentText{float: left;}
+.subHeaderAppointmentTxt{float: left;color: #fff;font-size: 0.9em;text-transform: uppercase;}
+
+.mainHeader{width: 100%;float: left;height: 110px;display: flex;justify-content: center;background: #fff;position: relative;}
+.mainHeaderInner{width: 1100px;float: left;height: 100%;}
+.mainHeaderLogo{float: left;height: 100%;display: flex;align-items: center;}
+.mainHeaderLogoImg{float: left;}
+.mainHeaderNav{float: right;height: 100%;}
+.mainHeaderNavSingle{float: left;height: 100%;position: relative;display: flex;justify-content: center;margin-right: 40px;align-items: center;cursor: pointer;}
+.mainHeaderNavSingle:last-child{margin: 0px;}
+.mainHeaderNavSingle.active .mainHeaderNavSingleDecoration{display: flex;}
+.mainHeaderNavSingle.active .mainHeaderNavSingleText .mainHeaderNavSingleTxt{color: #299ead;}
+.mainHeaderNavSingle:hover .mainHeaderNavSingleDecoration{display: flex;}
+.mainHeaderNavSingle:hover .mainHeaderNavSingleText .mainHeaderNavSingleTxt{color: #299ead;}
+.mainHeaderNavSingleDecoration{width: 100%;position: absolute;left: 0px;top: 0px;height: 35px;display: flex;justify-content: center;display: none;}
+.mainHeaderNavSingleDecorationInner{width: 2px;float: left;height: 100%;}
+.mainHeaderNavSingleDecorationLine{width: 100%;float: left;background: #4abecd;height: 100%;position: relative;}
+.mainHeaderNavSingleDecorationBubble{width: 8px;height: 8px;float: left;background: #4abecd;border-radius: 8px;position: absolute;bottom: 0px;right: -3px;}
+.mainHeaderNavSingleText{width: 100%;float: left;margin-top: 5px;}
+.mainHeaderNavSingleTxt{float: left;width: 100%;color: #074148;font-size: 1em;text-transform: uppercase;font-family: 'Saira Bold';}
+
+.headerHighlights{width: 100%;float: left;background: #eaf3f4;height: 70px;display: flex;justify-content: center;position: relative;z-index: 2;box-shadow: 0px 5px 3px rgba(0,0,0,0.1);}
+.headerHighlightsInner{width: 1100px;float: left;height: 100%;}
+.headerHighlightsMain{float: left;padding: 15px 0px;}
+.headerHighlightSingle{float: left;height: 100%;}
+.headerHighlightSingleIcon{width: 40px;height: 40px;background: #fff;box-shadow: 0px 0px 5px rgba(0,0,0,0.1);display: flex;justify-content: center;align-items: center;float: left;}
+.headerHighlightSingleIconInner{float: left;}
+.headerHighlightSingleIco{float: left;color: #299ead;font-size: 1.2em;}
+.headerHighlightSingleContent{float: left;margin-left: 15px;width: 230px;}
+.headerHighlightSingleContentLable{float: left;width: 100%;}
+.headerHighlightSingleContentLableTxt{float: left;color: #074148;font-size: 0.9em;text-transform: uppercase;font-family: 'Saira Bold';}
+.headerHighlightSingleContentDescription{float: left;width: 100%;margin-top: -2px;}
+.headerHighlightSingleContentDescriptionTxt{float: left;color: #4d4d4d;font-size: 0.75em;text-transform: capitalize;}
+
+.headerHighlightsCall{float: right;height: 100%;width:210px;background: #299ead;display: flex;justify-content: center;align-items: center;}
+.headerHighlightsCallInner{float: left;width: 100%;}
+.headerHighlightsCallLable{width: 100%;float: left;}
+.headerHighlightsCallLableTxt{width: 100%;float: left;text-align: center;color: #fff;text-transform: uppercase;font-size: 0.7em;}
+.headerHighlightsCallNumber{width: 100%;float: left;margin-top: -4px;}
+.headerHighlightsCallNumberTxt{width: 100%;float: left;text-align: center;color: #fff;font-size: 1.3em;}
+
+.banner{width: 100%;height: calc(100vh - 224px);float: left;background: #074148;position: relative;z-index: 1;}
+.bannerInner{width: 100%;float: left;height: 100%;}
+.bannerSingle{width: 100%;float: left;height: 100%;position: relative;}
+.bannerSingleImage{width: 100%;float: left;height: 100%;position: relative;position: relative;z-index: 1;}
+.bannerSingleImg{width: 100%;float: left;height: 100%;}
+.bannerSingleImageOverlay{width: 100%;float: left;height: 100%;position: absolute;left: 0px;top: 0px;background: rgba(1,21,23, 0.6);}
+.bannerSingleContent{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;z-index: 2;display: flex;justify-content: center;}
+.bannerSingleContentInner{width: 850px;float: left;margin-top: 125px;}
+.bannerSingleContentHeading{width: 100%;float: left;display: flex;justify-content: center;}
+.bannerSingleContentHeadingTxt{float: left;background: #4abecd;color: #fff;text-transform: uppercase;padding: 8px 30px;font-size: 0.9em;}
+.bannerSingleContentTagline{width: 100%;float: left;margin-top: 5px;}
+.bannerSingleContentTaglineTxt{width: 100%;float: left;text-align: center;color: #fff;font-size: 0.9em;}
+.bannerSingleContentTaglineCapitalTxt{text-transform: uppercase;}
+.bannerSingleContentCaption{width: 100%;float: left;margin-top: 15px;}
+.bannerSingleContentCaptionTxt{width: 100%;float: left;text-align: center;font-size: 4.8em;text-transform: capitalize;color: #fff;line-height: 1.2em;font-family: 'Saira Bold';}
+.bannerSingleContentCaptionPrimaryTxt{color: #4abecd;font-family: 'Saira Bold';}
+.bannerSingleContentAction{width: 100%;float: left;display: flex;justify-content: center;margin-top: 25px;}
+.bannerSingleContentActionTxt{padding: 10px 30px;float: left;border: 2px solid #fff;font-size: 0.9em;text-transform: uppercase;color: #fff;cursor: pointer;}
+.bannerSingleContentActionTxt:hover{background: #fff;color: #074148;}
+
+.homeHighlights{width: 100%;float: left;display: flex;justify-content: center;position: relative;}
+.homeHighlightsInner{width: 1100px;float: left;background: #fff;margin-top: -130px;position: relative;z-index: 2;box-shadow: 0px 0px 15px rgba(0,0,0,0.15);}
+.homeHighlightSingle{width: 33.333%;float: left;padding-left: 2px;border-right: 2px solid #e5e7e7;}
+.homeHighlightSingle:last-child{padding: 0px;border: 0px;}
+.homeHighlightSingleInner{width: 100%;height: 100%;float: left;padding: 25px;}
+.homeHighlightIcon{width: 100%;float: left;display: flex;justify-content: center;}
+.homeHighlightIco{float: left;color: #299ead;font-size: 3em;}
+.homeHighlightHeading{width: 100%;float: left;margin-top: 10px;}
+.homeHighlightHeadingTxt{width: 100%;float: left;text-align: center;font-size: 1.4em;color: #074148;text-transform: capitalize;font-family: 'Saira Bold';}
+.homeHighlightContent{width: 100%;float: left;margin-top: 10px;}
+.homeHighlightContentTxt{width: 100%;float: left;text-align: center;line-height: 1.5em;font-size: 0.9em;}
+.homeHighlightAction{width: 100%;float: left;margin-top: 15px;display: flex;justify-content: center;}
+.homeHighlightActionTxt{float: left;color: #299ead;text-transform: uppercase;font-family: 'Saira Bold';cursor: pointer;}
+.homeHighlightActionTxt:hover{color: #074148;}
+
+.homeAboutUs{width: 100%;float: left;padding: 40px 0px;display: flex;justify-content: center;}
+.homeAboutUsInner{width: 1100px;float: left;}
+.homeAboutUsContent{width: 57%;float: left;}
+.homeAboutUsContentInner{width: 100%;float: left;}
+.homeAboutUsContentSectionLable{width: 100%;float: left;}
+.homeAboutUsContentSectionLableTxt{width: 100%;float: left;color: #aaacac;font-size: 1em;text-transform: uppercase;}
+.homeAboutUsContentSectionHeading{width: 100%;float: left;margin-top: 5px;}
+.homeAboutUsContentSectionHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.homeAboutUsContentDescription{width: 100%;float: left;margin-top: 15px;}
+.homeAboutUsContentDescriptionTxt{width: 100%;float: left;font-size: 1em;color: #6b6b6b;text-align: justify;}
+
+.homeAboutUsContentFeatures{width: 100%;float: left;margin-top: 20px;}
+.homeAboutUsContentFeaturesLable{width: 100%;float: left;}
+.homeAboutUsContentFeaturesLableTxt{width: 100%;float: left;color: #299ead;font-family: 'Saira Bold';font-size: 1.2em;text-transform: capitalize;}
+.homeAboutUsContentFeaturesList{width: 100%;float: left;margin-top: 15px;}
+.homeAboutUsContentFeatureSingle{width: 50%;float: left;position: relative;height: 30px;margin-bottom: 10px;}
+.homeAboutUsContentFeatureSingleIcon{width: 30px;height: 30px;float: left;display: flex;align-items: center;position: absolute;left: 0px;top: 0px;}
+.homeAboutUsContentFeatureSingleIconInner{float: left;}
+.homeAboutUsContentFeatureSingleIco{float: left;color: #299ead;font-size: 1.2em;}
+.homeAboutUsContentFeatureSingleText{width: 100%;height: 30px;float: left;padding-left: 35px;display: flex;align-items: center;}
+.homeAboutUsContentFeatureSingleTxt{float: left;color: #6b6b6b;}
+.homeAboutUsContentActions{width: 100%;float: left;margin-top: 20px;}
+.homeAboutUsContentActionSecondary{float: left;padding: 8px 40px;border: 2px solid #299ead;cursor: pointer;text-transform: uppercase;font-size: 0.85em;color: #299ead;font-family: 'Saira Bold';}
+.homeAboutUsContentActionPrimary{float: left;padding: 8px 40px;border: 2px solid #299ead;background: #299ead;cursor: pointer;text-transform: uppercase;font-size: 0.85em;color: #fff;font-family: 'Saira Bold';margin: 0px 0px 0px 20px;}
+
+.homeAboutUsVisual{width: 40%;float: right;}
+.homeAboutUsVisualInner{width: 100%;float: left;position: relative;}
+.homeAboutUsVisualImage{width: 90%;float: right;position: relative;z-index: 2;}
+.homeAboutUsVisualImg{width: 100%;float: left;}
+.homeAboutUsVisualImageDecorator{position: absolute;left: 0px;top: 35px;z-index: 1;}
+
+.poweredByHome{width: 100%;float: left;position: relative;}
+.poweredByHomeCover{width: 42.5%;float: left;}
+.poweredByHomeCoverImage{width: 100%;float: left;}
+.poweredByHomeCoverImg{width: 100%;float: left;}
+
+.poweredByHomeDetails{width: 65%;float: left;background-color: #299ead;position: absolute;right: 0px;top: 70px;padding: 30px 50px;}
+.poweredByHomeDetailsInner{width: 100%;float: left;}
+.poweredByHomeDetailsSubHeading{width: 100%;float: left;}
+.poweredByHomeDetailsSubHeadingTxt{width: 100%;float: left;color: #fff;font-size: 1em;text-transform: uppercase;}
+.poweredByHomeDetailsHeading{width: 100%;float: left;margin-top: 5px;}
+.poweredByHomeDetailsHeadingTxt{width: 60%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+
+.poweredByHomeDetailsNumbers{width: 100%;float: left;margin-top: 25px;padding-right: 30%;}
+.poweredByHomeDetailsNumberSingle{width: 33.333%;float: left;padding: 30px 25px;}
+.poweredByHomeDetailsNumberSingle:nth-child(1){border-bottom: 1px solid #fff;border-right: 1px solid #fff;}
+.poweredByHomeDetailsNumberSingle:nth-child(2){border-bottom: 1px solid #fff;border-right: 1px solid #fff;}
+.poweredByHomeDetailsNumberSingle:nth-child(3){border-bottom: 1px solid #fff;}
+.poweredByHomeDetailsNumberSingle:nth-child(4){border-right: 1px solid #fff;}
+.poweredByHomeDetailsNumberSingle:nth-child(5){border-right: 1px solid #fff;}
+.poweredByHomeDetailsNumberSingleInner{width: 100%;float: left;position: relative;}
+.poweredByHomeDetailsNumberSingleIconMain{position: absolute;left: 0px;top: 0px;height: 100%;float: left;width: 75px;display: flex;justify-content: center;align-items: center;}
+.poweredByHomeDetailsNumberSingleIcon{float: left;}
+.poweredByHomeDetailsNumberSingleIco{float: left;color: #fff;font-size: 2.7em;}
+.poweredByHomeDetailsNumberSingleContent{width: 100%;float: left;padding-left: 75px;}
+.poweredByHomeDetailsNumberSingleContentNumber{width: 100%;float: left;}
+.poweredByHomeDetailsNumberSingleContentNumberTxt{width: 100%;float: left;color: #fff;font-size: 3em;font-family: 'Saira Bold';line-height: 1em;}
+.poweredByHomeDetailsNumberSingleContentLable{width: 100%;float: left;margin-top: 2px;}
+.poweredByHomeDetailsNumberSingleContentLableTxt{width: 100%;float: left;color: #fff;font-size: 1em;text-transform: uppercase;}
+
+.whatWeOffer{width: 100%;float: left;background-color: #074148;padding: 100px 0px 20px;display: flex;justify-content: center;}
+.whatWeOfferInner{width: 1100px;float: left;}
+.whatWeOfferHeadings{width: 100%;float: left;position: relative;padding-bottom: 15px;border-bottom: 1px solid #497378;}
+.whatWeOfferHeadingsMain{width: 75%;float: left;}
+.whatWeOfferSubHeading{width: 100%;float: left;}
+.whatWeOfferSubHeadingTxt{width: 100%;float: left;color: #fff;font-size: 1em;text-transform: uppercase;}
+.whatWeOfferHeading{width: 100%;float: left;margin-top: 5px;}
+.whatWeOfferHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.whatWeOfferDescription{width: 100%;float: left;margin-top: 5px;}
+.whatWeOfferDescriptionTxt{width: 100%;float: left;color: #fff;font-size: 0.8em;color: #497378;}
+.whatWeOfferHeadingAction{width: 25%;float: left;height: 100%;position: absolute;right: 0px;top: 0px;display: flex;justify-content: flex-end;align-items:flex-end;padding-bottom: 15px;}
+.whatWeOfferHeadingActionMain{float: left;}
+.whatWeOfferHeadingActionTxt{float: left;color: #fff;font-size: 0.9em;text-transform: uppercase;padding: 8px 35px;border: 2px solid #fff;}
+
+.whatWeOfferContent{width: 100%;float: left;margin-top: 35px;}
+.whatWeOfferContentSingle{width: 32%;float: left;margin: 0px 2% 30px 0px;border: 2px solid #299ead;padding: 30px;}
+.whatWeOfferContentSingle:nth-child(3n){margin: 0px 0px 30px 0px;}
+.whatWeOfferContentSingleInner{width: 100%;float: left;}
+.whatWeOfferContentSingleIcon{width: 100%;float: left;display: flex;justify-content: center;margin-top: 10px;}
+.whatWeOfferContentSingleIconMain{float: left;}
+.whatWeOfferContentSingleIco{float: left;color: #299ead;font-size: 2.5em;}
+.whatWeOfferContentSingleHeading{width: 100%;float: left;margin-top: 10px;}
+.whatWeOfferContentSingleHeadingTxt{width: 100%;float: left;text-align: center;color: #fff;font-family: 'Saira Bold';font-size: 1.4em;}
+.whatWeOfferContentSingleDescription{width: 100%;float: left;margin-top: 10px;}
+.whatWeOfferContentSingleDescriptionTxt{width: 100%;float: left;color: #fff;font-size: 0.9em;text-align: center;}
+.whatWeOfferContentSingleAction{width: 100%;float: left;margin-top: 15px;display: flex;justify-content: center;}
+.whatWeOfferContentSingleActionTxt{float: left;color: #299ead;font-size: 0.9em;text-transform: uppercase;font-family: 'Saira Bold';cursor: pointer;}
+.whatWeOfferContentSingleActionTxt:hover{text-decoration: underline;}
+
+.healthNeeds{width: 100%;float: left;padding: 60px 0px 0px;background-image: linear-gradient(to bottom, rgba(228, 228, 228, 0.95), rgba(228, 228, 228, 0.95)), url("../images/health-needs-bg.jpg");background-size: cover;display: flex;justify-content: center;}
+.healthNeedsInner{width: 1100px;float: left;position: relative;padding-bottom: 130px;}
+.healthNeedsContent{width: 52%;float: left;}
+.healthNeedsContentSectionHeading{width: 100%;float: left;}
+.healthNeedsContentSectionHeadingTxt{width: 100%;float: left;color: #6a6a6a;font-size: 1em;text-transform: uppercase;}
+.healthNeedsContentHeading{width: 100%;float: left;margin-top: 15px;}
+.healthNeedsContentHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.healthNeedsContentHeadingTxt .highlight{color: #299ead;font-family: 'Saira Bold';}
+.healthNeedsContentActions{width: 100%;float: left;margin-top: 30px;}
+.healthNeedsContentActionSecondary{float: left;padding: 8px 40px;border: 2px solid #299ead;cursor: pointer;text-transform: uppercase;font-size: 0.85em;color: #299ead;font-family: 'Saira Bold';}
+.healthNeedsContentActionPrimary{float: left;padding: 8px 40px;border: 2px solid #299ead;background: #299ead;cursor: pointer;text-transform: uppercase;font-size: 0.85em;color: #fff;font-family: 'Saira Bold';margin: 0px 0px 0px 20px;}
+.healthNeedsContentCall{width: 100%;float: left;margin-top: 15px;}
+.healthNeedsContentCallTxt{width: 100%;float: left;color: #074148;font-size: 1.5em;}
+.healthNeedsContentCallTxt .highlight{color: #299ead;}
+
+.healthNeedsCover{float: right;position: absolute;right: 0px;bottom: 0px;width: 350px;}
+.healthNeedsCoverImage{float: left;width: 100%;}
+.healthNeedsCoverImg{float: left;width: 100%;}
+
+.clients{width: 100%;float: left;position: relative;}
+.clientsContent{width: 100%;float: left;display: flex;justify-content: center;position: relative;margin-top: -70px;}
+.clientsContentInner{width: 1100px;float: left;padding-right: 660px;position: relative;z-index: 2;}
+.clientsContentMain{width: 100%;float: left;padding: 50px 0px;}
+.clientsContentSectionHeading{width: 100%;float: left;}
+.clientsContentSectionHeadingTxt{width: 100%;float: left;color: #fff;font-size: 1em;text-transform: uppercase;}
+.clientsContentHeading{width: 100%;float: left;margin-top: 5px;}
+.clientsContentHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.clientsContentDescription{width: 100%;float: left;margin-top: 20px;}
+.clientsContentDescriptionTxt{width: 100%;float: left;color: #fff;font-size: 0.9em;text-align: left;text-align: justify;}
+.clientsContentAction{width: 100%;float: left;margin-top: 15px;}
+.clientsContentActionTxt{float: left;padding: 8px 40px;border: 2px solid #fff;cursor: pointer;text-transform: uppercase;font-size: 0.85em;color: #fff;font-family: 'Saira Bold';}
+
+.clientsContentBg{width: 52.5%;float: left;height: 100%;position: absolute;top: 0px;left: 0px;background: #299ead;z-index: 1;}
+
+.clientsTestimonials{width: 52.5%;float: left;position: absolute;top: 0px;right: 0px;background: #074148;padding: 60px 50px 60px 30px;z-index: 3;}
+.clientsTestimonialSingle{width: 100%;float: left;position: relative;padding-left: 200px;}
+.clientsTestimonialSingleUser{width: 200px;float: left;position: absolute;left: 0px;top: 0px;}
+.clientsTestimonialSingleUserImage{width: 100%;float: left;display: flex;justify-content: center;}
+.clientsTestimonialSingleUserImageInner{width: 125px;float: left;height: 125px;border-radius: 125px;overflow: hidden;}
+.clientsTestimonialSingleUserImg{width: 100%;height: 100%;float: left;}
+.clientsTestimonialSingleUserDetails{width: 100%;float: left;margin-top: 5px;}
+.clientsTestimonialSingleUserName{width: 100%;float: left;}
+.clientsTestimonialSingleUserNameTxt{width: 100%;float: left;text-align: center;font-family: 'Saira Bold';font-size: 1.5em;color: #299ead;text-transform: capitalize;line-height: 1.3em;}
+.clientsTestimonialSingleUserDesignation{width: 100%;float: left;}
+.clientsTestimonialSingleUserDesignationTxt{width: 100%;float: left;color: #fff;font-size: 1em;text-transform: uppercase;text-align: center;}
+
+.clientsTestimonialSingleDetails{width: 100%;float: left;padding-left: 20px;}
+.clientsTestimonialSingleDetailsMain{width: 100%;float: left;background: #0d5e68;padding: 25px;position: relative;}
+.clientsTestimonialSingleDetailsArrow{position: absolute;left: -30px;top: 16px;}
+.clientsTestimonialSingleDetailsArrowIco{color: #0d5e68;font-size: 6em !important;}
+.clientsTestimonialSingleDetailsContent{width: 100%;float: left;}
+.clientsTestimonialSingleDetailsContentTxt{width: 100%;float: left;color: #fff;text-align: justify;font-style: italic;font-size: 1.3em;}
+
+.clientsTestimonialSingleDetailsRating{width: 100%;float: left;margin-top: 20px;}
+.clientsTestimonialSingleDetailsRatingSingle{float: left;margin-right: 10px;}
+.clientsTestimonialSingleDetailsRatingSingle:last-child{margin: 0px;}
+.clientsTestimonialSingleDetailsRatingSingleIco{color: #fff;font-size: 1.4em !important;}
+
+.doctors{width: 100%;float: left;padding: 140px 0px 50px 0px;display: flex;justify-content: center;}
+.doctorsInner{width: 1100px;float: left;}
+.doctorsHeadings{width: 100%;float: left;}
+.doctorSectionHeading{width: 100%;float: left;}
+.doctorSectionHeadingTxt{width: 100%;float: left;color: #aaacac;font-size: 1em;text-transform: uppercase;text-align: center;}
+.doctorHeading{width: 100%;float: left;margin-top: 5px;}
+.doctorHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;text-align: center;}
+.doctorDescription{width: 100%;float: left;margin-top: 10px;}
+.doctorDescriptionTxt{width: 100%;float: left;color: #6b6b6b;font-size: 0.8em;text-align: left;text-align: center;}
+
+.doctorsList{width: 100%;float: left;margin-top: 25px;}
+.doctorSingle{width: 23%;float: left;margin-right: 2.66%;background: #fff;padding: 5px 5px 10px;box-shadow: 0px 0px 10px rgba(0,0,0,0.2);}
+.doctorSingle:last-child{margin: 0px;}
+.doctorSingleInner{width: 100%;float: left;}
+.doctorSingleImage{width: 100%;float: left;}
+.doctorSingleImg{width: 100%;float: left;}
+.doctorSingleDesignation{width: 100%;float: left;margin-top: 12px;}
+.doctorSingleDesignationTxt{width: 100%;float: left;text-align: center;color: #074148;font-size: 0.9em;text-transform: uppercase;}
+.doctorSingleName{width: 100%;float: left;}
+.doctorSingleNameTxt{width: 100%;float: left;font-size: 1.5em;color: #074148;text-align: center;text-transform: capitalize;font-family: 'Saira Bold';line-height: 1.2em;}
+
+.contactHighlights{width: 100%;float: left;padding: 40px 0px;display: flex;justify-content: center;background: #299ead;}
+.contactHighlightsInner{width: 1100px;float: left;}
+.contactHighlightSingle{float: left;margin-right: 3%;}
+
+.contactHighlightSingle.phoneNumber{width: 32% !important;}
+.contactHighlightSingle.emailId{width: 40% !important;}
+.contactHighlightSingle.workingHours{width: 22% !important;}
+
+.contactHighlightSingle:last-child{margin-right: 0px;}
+.contactHighlightSingleInner{width: 100%;float: left;position: relative;}
+.contactHighlightSingleIcon{width: 50px;height: 50px;border: 2px solid #fff;position: absolute;left: 0px;top: 0px;}
+.contactHighlightSingleIconInner{width: 100%;height: 100%;float: left;display: flex;justify-content: center;align-items: center;}
+.contactHighlightSingleIco{float: left;color: #fff;font-size: 1.6em !important;}
+.contactHighlightSingleDescription{width: 100%;height: 50px;float: left;padding-left: 70px;display: flex;align-items: center;}
+.contactHighlightSingleDescriptionInner{width: 100%;float: left;}
+.contactHighlightSingleDescriptionHeading{width: 100%;float: left;}
+.contactHighlightSingleDescriptionHeadingTxt{font-family: 'Saira Bold';font-size: 1.6em;color: #fff;line-height: 1em;}
+.contactHighlightSingleDescriptionSubHeading{width: 100%;float: left;}
+.contactHighlightSingleDescriptionSubHeadingTxt{width: 100%;float: left;color: #fff;font-size: 0.9em;}
+
+.footer{width: 100%;float: left;background: #074148;padding: 40px 0px 20px;display: flex;justify-content: center;}
+.footerInner{width: 1100px;float: left;}
+
+.footerContent{width: 100%;float: left;}
+
+.footerAbout{width: 32%;float: left;margin-right: 5%;}
+.footerAboutHeading{width: 100%;float: left;}
+.footerAboutHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 1.5em;line-height: 1.2em;}
+.footerAboutDescription{width: 100%;float: left;margin-top: 20px;}
+.footerAboutDescriptionTxt{width: 100%;float: left;text-align: justify;color: #fff;font-size: 0.85em;margin-bottom: 15px;}
+.footerAboutDescriptionTxt:last-child{margin-bottom: 0px;}
+
+.footerAboutFollow{width: 100%;float: left;margin-top: 25px;}
+.footerAboutFollowSingle{width: 46px;height: 46px;float: left;border: 2px solid #299ead;border-radius: 46px;overflow: hidden;margin-right: 15px;}
+.footerAboutFollowSingle:last-child{margin-right: 0px;}
+.footerAboutFollowSingleIcon{width: 100%;height: 100%;float: left;display: flex;justify-content: center;align-items: center;}
+.footerAboutFollowSingleIco{color: #fff;font-size: 1.2em !important;}
+
+.footerQuickLinks{width: 22%;float: left;margin-left: 7%;}
+.footerQuickLinksHeading{width: 100%;float: left;}
+.footerQuickLinksHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 1.5em;line-height: 1.2em;}
+.footerQuickLinksList{width: 100%;float: left;margin-top: 20px;}
+.footerQuickLinkSingle{width: 100%;float: left;margin-bottom: 20px;height: 20px;position: relative;}
+.footerQuickLinkSingle:last-child{margin: 0px;}
+.footerQuickLinkSingleBullet{width: 30px;height: 20px;float: left;display: flex;justify-content: center;align-items: center;padding: 0px 5px;position: absolute;left: 0px;top: 0px;}
+.footerQuickLinkSingleBulletIco{width: 100%;height: 2px;background: #299ead;float: left;}
+.footerQuickLinkSingleContent{width: 100%;float: left;height: 20px;padding-left: 40px;display: flex;align-items: center;}
+.footerQuickLinkSingleContentTxt{color: #fff;font-size: 1em;text-transform: capitalize;}
+
+.footerServices{width: 34%;float: left;}
+.footerServicesHeading{width: 100%;float: left;}
+.footerServicesHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 1.5em;line-height: 1.2em;}
+.footerServicesList{width: 100%;float: left;margin-top: 20px;}
+.footerServicesListLeft{width: 50%;float: left;}
+.footerServicesListRight{width: 50%;float: left;}
+
+.footerCopyrightLookitLive{width: 100%;float: left;margin-top: 30px;padding-top: 20px;border-top: 1px solid #299ead;}
+.footerCopyright{width: 50%;float: left;}
+.footerCopyrightTxt{width: 100%;float: left;color: #fff;font-size: 0.85em;}
+.footerLookitLive{float: right;}
+.footerLookitLiveTxt{width: 100%;float: left;text-align: center;color: #fff;font-size: 0.85em;}
+.footerLookitLiveTxt .highlight{color: #299ead;}
+
+.homeSampleCollectionMain{width: 100%;float: left;padding: 0px 25%;}
+.homeSampleCollectionImage{width: 100%;float: left;}
+.homeSampleCollectionImg{width: 100%;float: left;}
+
+/*home ends*/
+
+.sitemap{width: 100%;float: left;padding: 50px 0px;display: flex;justify-content: center;background-image: linear-gradient(to bottom, rgba(7, 65, 72, 0.9), rgba(7, 65, 72, 0.9)), url("../images/sitemap-bg.jpg");background-size: cover;}
+.sitemapInner{width: 1100px;float: left;height: 55px;}
+.sitemapTitle{float: left;height: 55px;display: flex;align-items: center;}
+.sitemapTitleTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 2.2em;}
+.sitemapContent{float: right;height: 55px;background: #299ead;box-shadow: 0px 5px 10px rgba(0,0,0,0.2);display: flex;align-items: center;padding: 0px 40px;}
+.sitemapContentInner{float: left;height: 24px;}
+.sitemapContentPrimary{float: left;padding-right: 20px;border-right: 2px solid #fff;height: 100%;}
+.sitemapContentRootIcon{float: left;height: 100%;display: flex;align-items: center;}
+.sitemapContentRootIco{float: left;color: #fff;font-size: 0.9em !important;}
+.sitemapContentRootText{float: left;margin-left: 15px;height: 100%;display: flex;align-items: center;}
+.sitemapContentRootTxt{float: left;color: #fff;font-size: 1em;text-transform: capitalize;}
+.sitemapContentSecondary{float: left;padding-left: 20px;height: 100%;display: flex;align-items: center;}
+.sitemapContentSecondaryText{float: left;}
+.sitemapContentSecondaryTxt{float: left;color: #074148;font-size: 1em;text-transform: capitalize;}
+
+/*contact us page starts*/
+.contactPage{width: 100%;float: left;padding: 50px 0px;display: flex;justify-content: center;}
+.contactPageInner{width: 1100px;float: left;}
+.contactPageDetails{width: 40%;float: left;background: #299ead;padding: 20px 30px;position: relative;z-index: 2;min-height: 100%;}
+.contactPageDetailsInner{width: 100%;float: left;}
+.contactPageDetailHeadings{width: 100%;float: left;border-bottom: 1px solid #fff;padding-bottom: 15px;}
+.contactPageDetailsHeading{width: 100%;float: left;}
+.contactPageDetailsHeadingTxt{width: 100%;float: left;color: #fff;font-family: 'Saira Bold';font-size: 1.8em;line-height: 1.3em;}
+.contactPageDetailsSubHeading{width: 100%;float: left;margin-top: 5px;}
+.contactPageDetailsSubHeadingTxt{float: left;color: #fff;font-size: 0.9em;}
+.contactPageDetailsList{width: 100%;float: left;padding: 20px 0px;border-bottom: 1px solid #fff;}
+.contactPageDetailsSingle{float: left;width: 100%;margin-bottom: 20px;}
+.contactPageDetailsSingle:last-child{margin-bottom: 0px;}
+.contactPageDetailsSingleInner{width: 100%;float: left;position: relative;}
+.contactPageDetailsSingleIcon{width: 50px;height: 50px;border: 2px solid #fff;position: absolute;left: 0px;top: 0px;}
+.contactPageDetailsSingleIconInner{width: 100%;height: 100%;float: left;display: flex;justify-content: center;align-items: center;}
+.contactPageDetailsSingleIco{float: left;color: #fff;font-size: 1.6em !important;}
+.contactPageDetailsSingleDescription{width: 100%;height: 50px;float: left;padding-left: 70px;display: flex;align-items: center;}
+.contactPageDetailsSingleDescriptionInner{width: 100%;float: left;}
+.contactPageDetailsSingleDescriptionHeading{width: 100%;float: left;}
+.contactPageDetailsSingleDescriptionHeadingTxt{font-family: 'Saira Bold';font-size: 1.4em;color: #fff;line-height: 1em;}
+.contactPageDetailsSingleDescriptionSubHeading{width: 100%;float: left;}
+.contactPageDetailsSingleDescriptionSubHeadingTxt{width: 100%;float: left;color: #fff;font-size: 0.9em;}
+.contactPageDetailSocialList{width: 100%;float: left;margin-top: 20px;}
+.contactPageDetailSocialListInner{width: 100%;float: left;}
+.contactPageDetailSocialSingle{width: 46px;height: 46px;float: left;border: 2px solid #fff;border-radius: 46px;overflow: hidden;margin-right: 15px;}
+.contactPageDetailSocialSingle:last-child{margin-right: 0px;}
+.contactPageDetailSocialSingleIcon{width: 100%;height: 100%;float: left;display: flex;justify-content: center;align-items: center;}
+.contactPageDetailSocialSingleIco{color: #fff;font-size: 1.2em !important;}
+
+.contactPageForm{width: 60%;float: left;padding: 20px 30px;height: 100%;background: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.2);position: relative;z-index: 1;}
+.contactPageFormInner{width: 100%;float: left;}
+.contactPageFormHeadings{width: 100%;float: left;}
+.contactPageFormSubHeading{width: 100%;float: left;}
+.contactPageFormSubHeadingTxt{width: 100%;float: left;color: #aaacac;font-size: 1em;text-transform: uppercase;}
+.contactPageFormHeading{width: 100%;float: left;}
+.contactPageFormHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;text-transform: capitalize;}
+.contactPageFormMain{width: 100%;float: left;margin-top: 15px;}
+.contactPageFormStep{width: 100%;float: left;margin-bottom: 15px;}
+.contactPageFormStep:last-child{margin-bottom: 0px;}
+.contactPageFormStepLable{width: 100%;float: left;}
+.contactPageFormStepLableTxt{width: 100%;float: left;color: #299ead;font-size: 0.9em;text-transform: capitalize;}
+.contactPageFormStepInput{width: 100%;float: left;}
+.contactPageFormStepInputTxt{width: 100%;float: left;color: #000;padding: 5px 0px;border-bottom: 1px solid #074148;}
+.contactPageFormStepInputTxtarea{width: 100%;float: left;color: #000;padding: 5px 0px;border-bottom: 1px solid #074148;resize: none;}
+.contactPageFormStepInputAction{float: right;padding: 10px 40px;background: #074148;color: #fff;text-transform: uppercase;cursor: pointer;}
+
+.contactPageMaps{width: 100%;float: left;height: 450px;}
+.contactPageMapsIframe{width: 100%;float: left;height: 100%;}
+/*contact us page ends*/
+
+/*about us page starts*/
+.aboutUsPage{width: 100%;float: left;padding: 50px 0px;display: flex;justify-content: center;background-color: #f3f3f3;}
+.aboutUsPageInner{width: 1100px;float: left;}
+.aboutUsPageCover{width: 350px;float: left;}
+.aboutUsPageCoverImage{width: 100%;float: left;}
+.aboutUsPageCoverImg{width: 100%;float: left;}
+.aboutUsPageContent{width: 700px;float: left;margin-left: 50px;}
+.aboutUsPageContentInner{width: 100%;float: left;}
+.aboutUsPageContentHeadings{width: 100%;float: left;}
+.aboutUsPageSectionHeading{width: 100%;float: left;}
+.aboutUsPageSectionHeadingTxt{width: 100%;float: left;color: #aaacac;font-size: 1em;text-transform: uppercase;}
+.aboutUsPageContentHeading{width: 100%;float: left;margin-top: 5px;}
+.aboutUsPageContentHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.aboutUsPageContentDescription{width: 100%;float: left;margin-top: 20px;padding-bottom: 25px;border-bottom: 1px solid #aaacac;}
+.aboutUsPageContentDescriptionTxt{width: 100%;float: left;font-size: 1em;color: #6b6b6b;text-align: justify;margin-bottom: 20px;}
+.aboutUsPageContentDescriptionTxt:last-child{margin-bottom: 0px;}
+
+.aboutUsPageOptions{width: 100%;float: left;margin-top: 25px;}
+.aboutUsPageOptionsInner{width: 100%;float: left;}
+.aboutUsPageOptionSingle{width: 31.333%;float: left;margin-right: 3%;background-color: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.15);height: 70px;position: relative;}
+.aboutUsPageOptionSingle:last-child{margin: 0px;}
+.aboutUsPageOptionSingleIcon{width: 55px;height: 100%;position: absolute;left: 0px;top: 0px;display: flex;justify-content: center;align-items: center;}
+.aboutUsPageOptionSingleIco{color: #299ead;font-size: 1.6em !important;}
+.aboutUsPageOptionSingleContent{width: 100%;float: left;padding:0px 20px 0px 60px;display: flex;align-items: center;height: 100%;}
+.aboutUsPageOptionSingleContentTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 1.2em;line-height: 1.3em;text-transform: capitalize;}
+
+.clients.aboutUsPageClients .clientsContent{margin: 0px;position: absolute;height: 100%;}
+.clients.aboutUsPageClients .clientsTestimonials{position: relative;float: right;}
+/*about us page ends*/
+
+/*our services page starts*/
+.ourServicesPage{width: 100%;float: left;padding: 50px 0px 25px;display: flex;justify-content: center;background-color: #f3f3f3;}
+.ourServicesPageInner{width: 1100px;float: left;}
+.ourServicesPageHeadings{width: 100%;float: left;}
+.ourServicesPageSectionHeadings{width: 100%;float: left;display: flex;justify-content: center;}
+.ourServicesPageSectionHeadingsTxt{float: left;color: #aaacac;font-size: 1em;text-transform: uppercase;}
+.ourServicesPageHeading{width: 100%;float: left;margin-top: 5px;display: flex;justify-content: center;}
+.ourServicesPageHeadingTxt{float: left;color: #074148;font-family: 'Saira Bold';font-size: 2.2em;line-height: 1.3em;}
+.ourServicesPageDescription{width: 100%;float: left;margin-top: 5px;display: flex;justify-content: center;}
+.ourServicesPageDescriptionTxt{width: 60%;float: left;color: #6b6b6b;font-size: 0.8em;text-align: center;}
+
+.ourServicesPageContent{width: 100%;float: left;margin-top: 30px;}
+.ourServicesPageContentSingle{width: 32%;float: left;margin: 0px 2% 25px 0px;background-color: #fff;box-shadow: 0px 0px 5px rgba(0,0,0,0.15);}
+.ourServicesPageContentSingle:nth-child(3n){margin-right: 0px;}
+.ourServicesPageContentSingleCover{width: 100%;float: left;}
+.ourServicesPageContentSingleCoverImg{width: 100%;float: left;}
+.ourServicesPageContentSingleContent{width: 100%;float: left;padding: 10px 20px 15px;}
+.ourServicesPageContentSingleContentHeading{width: 100%;float: left;}
+.ourServicesPageContentSingleContentHeadingTxt{width: 100%;float: left;color: #074148;font-family: 'Saira Bold';font-size: 1.3em;line-height: 1.3em;}
+.ourServicesPageContentSingleContentDescription{width: 100%;float: left;margin-top: 5px;}
+.ourServicesPageContentSingleContentDescriptionTxt{width: 100%;float: left;font-size: 0.85em;color: #6b6b6b;text-align: justify;}
+.ourServicesPageContentSingleContentAction{width: 100%;float: left;margin-top: 10px;cursor: pointer;}
+.ourServicesPageContentSingleContentActionTxt{float: left;color: #299ead;color: 1.1em;text-transform: uppercase;font-family: 'Saira Bold';padding-bottom: 2px;border-bottom: 1px solid #299ead;}
+/*our services page ends*/
+
+/*service details page starts*/
+
+.serviceDetailPage{width: 100%;float: left;padding: 50px 0px;display: flex;justify-content: center;}
+.serviceDetailPageInner{width: 1100px;float: left;}
+.serviceDetailPageLeft{width: 320px;float: left;}
+.serviceDetailPageOtherServices{width: 100%;float: left;background-color: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.15);}
+.serviceDetailPageOtherServicesSingle{padding: 10px 20px;float: left;width: 100%;cursor: pointer;}
+.serviceDetailPageOtherServicesSingle.active {background: #299ead;}
+.serviceDetailPageOtherServicesSingle.active .serviceDetailPageOtherServicesSingleTxt{color: #fff;}
+
+.serviceDetailPageOtherServicesSingle:hover{background: #299ead;}
+.serviceDetailPageOtherServicesSingle:hover .serviceDetailPageOtherServicesSingleTxt{color: #fff;}
+
+.serviceDetailPageOtherServicesSingleTxt{width: 100%;float: left;font-family: 'Saira Bold';font-size: 1.2em;color: #000;text-transform: capitalize;}
+
+.serviceDetailPageContact{width: 100%;float: left;margin-top: 30px;background: #299ead;padding: 20px;}
+.serviceDetailPageContactIcon{padding: 15px 0px;float: left;width: 100%;display: flex;justify-content: center;align-items: center;}
+.serviceDetailPageContactIco{color: #fff;font-size: 4em !important;}
+.serviceDetailPageContactDetails{width: 100%;float: left;}
+.serviceDetailPageContactDetailsHeading{width: 100%;float: left;}
+.serviceDetailPageContactDetailsHeadingTxt{width: 100%;float: left;text-align: center;font-family: 'Saira Bold';font-size: 1.5em;color: #fff;}
+.serviceDetailPageContactDetailsDescription{width: 100%;float: left;margin-top: 10px;}
+.serviceDetailPageContactDetailsDescriptionTxt{width: 100%;float: left;text-align: center;color: #fff;font-size: 0.9em;}
+.serviceDetailPageContactDetailsAction{width: 100%;float: left;margin-top: 15px;display: flex;justify-content: center;}
+.serviceDetailPageContactDetailsActionTxt{float: left;font-family: 'Saira Bold';padding-bottom: 3px;border-bottom: 1px solid #fff;color: #fff;text-transform: uppercase;cursor: pointer;}
+
+.serviceDetailPageRight{width: 750px;float: left;margin-left: 30px;}
+.serviceDetailPageCover{width: 100%;float: left;}
+.serviceDetailPageCoverImage{width: 100%;float: left;}
+.serviceDetailPageCoverImg{width: 100%;float: left;}
+
+.serviceDetailPageContent{width: 100%;float: left;margin-top: 20px;}
+.serviceDetailPageContentHeading{width: 100%;float: left;padding-bottom: 10px;border-bottom: 1px solid #aaacac;}
+.serviceDetailPageContentHeadingTxt{width: 100%;float: left;color: #000;font-family: 'Saira Bold';font-size: 1.8em;text-transform: capitalize;}
+
+.serviceDetailPageContentDescription{width: 100%;float: left;margin-top: 20px;}
+.serviceDetailPageContentDescriptionTxt{width: 100%;float: left;color: #000;text-align: justify;font-size: 0.9em;margin-bottom: 20px;}
+.serviceDetailPageContentDescriptionTxt:last-child{margin-bottom: 0px;}
+
+.serviceDetailPageIncludes{width: 100%;float: left;margin-top: 20px;}
+.serviceDetailPageIncludesHeading{width: 100%;float: left;padding-bottom: 10px;border-bottom: 1px solid #aaacac;}
+.serviceDetailPageIncludesHeadingTxt{width: 100%;float: left;color: #000;font-family: 'Saira Bold';font-size: 1.8em;text-transform: capitalize;}
+.serviceDetailPageIncludesList{width: 100%;float: left;margin-top: 20px;}
+.serviceDetailPageIncludesListSingle{width: 50%;float: left;height: 30px;position: relative;margin-bottom: 10px;}
+.serviceDetailPageIncludesListSingleIcon{width: 30px;height: 30px;float: left;position: absolute;left: 0px;top: 0px;display: flex;justify-content: center;align-items: center;}
+.serviceDetailPageIncludesListSingleIco{color: #299ead;font-size: 1.2em !important;}
+.serviceDetailPageIncludesListSingleText{width: 100%;float: left;padding-left: 40px;height: 30px;display: flex;align-items: center;}
+.serviceDetailPageIncludesListSingleTxt{width: 100%;float: left;color: #000;font-family: 'Saira Bold';font-size: 1em;text-transform: capitalize;}
+
+.mobileNav{width: 36px;height: 36px;position: absolute;top: 50%;right: 20px;margin-top: -18px;}
+.mobileNavInner{width: 100%;height: 100%;float: left;position: relative;}
+.mobileNavButton{width: 100%;height: 100%;float: left;border-radius: 5px;overflow: hidden;background-color: #497378;display: flex;justify-content: center;align-items: center;}
+.mobileNavButtonIco{color: #fff;font-size: 1.2em !important;}
+
+.mobileNavOptions{width: 180px;float: left;position: absolute;right: 0px;top:50px;}
+.mobileNavOptionsArrow{position: absolute;right: 10px;top: -10px;}
+.mobileNavOptionsArrowIco{font-size: 1.8em !important;color: #497378;}
+.mobileNavOptionsInner{width: 100%;float: left;}
+.mobileNavOptionsMain{width: 100%;float: left;background-color: #497378;}
+.mobileNavOption{width: 100%;float: left;padding: 8px 20px;border-bottom: 1px solid #0d5e68;}
+.mobileNavOption:last-child{border-bottom: 0px;}
+.mobileNavOptionTxt{width: 100%;float: left;color: #fff;}
+/*service details page ends*/
+
+#mobileNavOptions{display: none;}
+.mobileNav{display: none;}
+
+@media(max-width: 1600px){
+    .poweredByHomeDetailsHeadingTxt{width: 100%;}
+    .poweredByHomeDetailsNumbers{padding-right: 0px;}
+    .whatWeOffer{padding: 200px 0px 20px;}
+    .doctors{padding: 150px 0px 50px 0px;}
+    .bannerSingleContentInner{margin-top: 100px;}
+}
+
+@media(max-width: 1500px){
+    .poweredByHomeDetailsHeadingTxt{width: 100%;}
+    .poweredByHomeDetailsNumbers{padding-right: 0px;}
+    .whatWeOffer{padding: 220px 0px 20px;}
+    .doctors{padding: 180px 0px 50px 0px;}
+}
+
+@media(max-width: 1400px){
+    .bannerSingleContentInner{margin-top: 50px;}
+    .homeHighlightsInner{margin-top: -90px;}
+    .poweredByHomeDetailsHeadingTxt{width: 100%;}
+    .poweredByHomeDetailsNumbers{padding-right: 0px;}
+    .whatWeOffer{padding: 220px 0px 20px;}
+    .doctors{padding: 180px 0px 50px 0px;}
+}
+
+@media(max-width: 1300px){
+    .bannerSingleContentInner{margin-top: 40px;}
+    .whatWeOffer{padding: 230px 0px 20px;}
+    .doctors{padding: 200px 0px 50px 0px;}
+}
+
+@media(max-width: 1100px){
+    .subHeaderInner{width: 960px;}
+    .mainHeaderInner{width: 960px;}
+    .mainHeaderInner{width: 960px;}
+    .headerHighlightsInner{width: 960px;}
+    .homeHighlightsInner{width: 960px;}
+    .homeAboutUsInner{width: 960px;}
+    .whatWeOfferInner{width: 960px;}
+    .healthNeedsInner{width: 960px;}
+    .clientsContentInner{width: 960px;}
+    .doctorsInner{width: 960px;}
+    .contactHighlightsInner{width: 960px;}
+    .footerInner{width: 960px;}
+    .headerHighlightSingleContent{width: 212px;}
+    .headerHighlightsCall{width: 140px;}
+    .headerHighlightsCallNumberTxt{font-size: 1em;}
+    .bannerSingleContentInner{margin-top: 60px;}
+    .poweredByHomeDetailsNumberSingle{padding: 15px 10px;}
+    .poweredByHomeDetailsNumberSingleIconMain{width: 50px;}
+    .poweredByHomeDetailsNumberSingleIco{font-size: 2.2em !important;padding-right: 15px;}
+    .poweredByHomeDetailsNumberSingleContent{padding-left: 50px;}
+    .clientsTestimonials{width: 65%;}
+    .contactHighlightSingle{margin-right: 2%;}
+    .contactHighlightSingleDescriptionHeadingTxt{font-size: 1.4em;}
+    .contactHighlightSingle.workingHours{width: 24% !important;}
+    .footerQuickLinks{margin-left: 4%;width: 25%;}
+}
+
+@media(max-width: 650px){
+
+}
+
+@media(max-width: 450px){
+    body{width: 100%;overflow-x: hidden;}
+    .subHeaderInner{width: 100%;display: flex;justify-content: center;}
+    .mainHeaderInner{width: 100%;display: flex;justify-content: center}
+    .mainHeaderInner{width: 100%;}
+    .headerHighlightsInner{width: 100%;}
+    .homeHighlightsInner{width: 100%;margin-top: 0px;}
+    .homeAboutUsInner{width: 100%;}
+    .whatWeOfferInner{width: 100%;}
+    .healthNeedsInner{width: 100%;padding: 30px;}
+    .clientsContentInner{width: 100%;padding: 0px 30px;}
+    .doctorsInner{width: 100%;}
+    .contactHighlightsInner{width: 100%;}
+    .footerInner{width: 100%;}
+    .bannerSingleContentInner{width: 100%;}
+    .subHeaderLocationHours{display: none;}
+    .headerHighlightsMain{display: none;}
+    .mainHeaderNav{display: none;}
+    .headerHighlightsCall{width: 100%;}
+    .headerHighlightsCallLableTxt{font-size: 0.9em;}
+    .headerHighlightsCallNumberTxt{font-size: 1.4em;}
+    .bannerSingleContentCaptionTxt{font-size: 2.6em;}
+    .homeHighlightSingle{width: 100%;border-right: 0px;padding-right: 0px;}
+    .bannerSingleImg{margin-left: -85%;width: auto;}
+    .homeAboutUsContent{width: 100%;padding: 0px 30px;}
+    .homeAboutUsContentSectionHeadingTxt{font-size: 1.6em;}
+    .homeAboutUsContentFeatureSingle{width: 100%;}
+    .homeAboutUsContentActionSecondary{width: 100%;padding: 8px 0px;text-align: center;}
+    .homeAboutUsContentActionPrimary{width: 100%;padding: 8px 0px;text-align: center;margin: 20px 0px 0px;}
+    .homeAboutUsVisual{display: none;}
+    .poweredByHomeCover{width: 100%;}
+    .poweredByHomeDetails{position: relative;width: 100%;top: 0px;padding: 20px 25px;}
+    .poweredByHomeDetailsNumberSingle{width: 100%;border-bottom: 1px solid #fff;border-right: 0px !important;}
+    .poweredByHomeDetailsNumberSingle:last-child{border: 0px;}
+    .poweredByHomeDetailsNumberSingleInner{width: 200px;}
+    .poweredByHomeDetailsNumberSingle{display: flex;justify-content: center;}
+    .whatWeOfferHeadingsMain{width: 100%;}
+    .whatWeOffer{padding: 30px 30px;}
+    .whatWeOfferHeadingAction{position: relative;left: 0px;top: 0px;width: 100%;margin-top: 20px;justify-content: left;}
+    .whatWeOfferContentSingle{width: 100%;margin:0px 0px 30px 0px}
+    .healthNeeds{padding: 0px;}
+    .healthNeedsContent{width: 100%;}
+    .healthNeedsCover{display: none;}
+    .healthNeedsContentActionPrimary{margin: 20px 0px 0px;}
+    .clientsContent{margin-top: 0px;}
+    .clientsContentBg{width: 100%;}
+    .clientsContentMain{padding: 25px 0px;}
+    .clientsTestimonials{width: 100%;position: relative;padding: 40px 30px;}
+    .clientsTestimonialSingle{padding: 0px;}
+    .clientsTestimonialSingleUser{width: 100%;position: relative;}
+    .clientsTestimonialSingleDetails{padding: 0px;margin-top: 15px;}
+    .clientsTestimonialSingleDetailsArrow{display: none;}
+    .clientsTestimonialSingleDetailsContentTxt{font-size: 1em;}
+    .contactHighlightSingle.phoneNumber{width: 100% !important;}
+    .contactHighlightSingle.emailId{width: 100% !important;}
+    .contactHighlightSingle.workingHours{width: 100% !important;}
+    .contactHighlightSingle{margin-bottom: 25px;padding: 0px 30px;}
+    .contactHighlightSingle:last-child{margin-bottom: 0px;}
+    .contactHighlightSingleDescriptionHeadingTxt{font-size: 1.2em;}
+    .footerAbout{width: 100%;margin: 0px 0px 30px 0px;padding: 0px 30px;}
+    .footerQuickLinks{width: 100%;margin: 0px 0px 30px 0px;padding: 0px 30px;}
+    .footerServices{width: 100%;margin: 0px 0px 0px 0px;padding: 0px 30px;}
+    .footerServicesListLeft{width: 100%;margin-bottom: 20px;}
+    .footerServicesListRight{width: 100%;}
+    .footerCopyrightLookitLive{padding: 20px 30px 0px;}
+    .footerCopyright{width: 100%;}
+    .footerCopyrightTxt{text-align: center;}
+    .footerLookitLive{width: 100%;margin-top: 10px;}
+
+    .sitemap{padding: 20px 0px 30px;}
+    .sitemapInner{height: auto;padding: 0px 30px;}
+    .sitemapTitle{width: 100%;text-align: center;}
+    .sitemapContent{width: 100%;justify-content: center;height: 40px;padding: 0px 20px;}
+    .sitemapContentSecondaryTxt{line-height: 1em;}
+    
+    .aboutUsPageInner{width: 100%;padding: 0px 30px;}
+    .aboutUsPageCover{width: 100%;}
+    .aboutUsPageContent{width: 100%;margin: 30px 0px 0px;}
+
+    .aboutUsPageOptionSingle{width: 100%;margin: 0px 0px 25px 0px;}
+    .aboutUsPageOptionSingle:last-child{margin: 0px;}
+
+    .ourServicesPageInner{width: 100%;padding: 0px 30px;}
+    .ourServicesPageSectionHeadings{justify-content: left;}
+    .ourServicesPageDescription{justify-content: left;}
+    .ourServicesPageDescriptionTxt{width: 100%;text-align: left;}
+
+    .ourServicesPageContentSingle{width: 100%;margin: 0px 0px 30px;}
+    .ourServicesPageContentSingle:last-child{margin: 0px;}
+
+    .contactPageInner{width: 100%;padding: 0px 30px;}
+    .contactPageDetails{width: 100%;min-height: auto;padding: 20px;}
+
+    .contactPageForm{width: 100%;height: auto;}
+    .contactPageDetailsSingleIcon{width: 40px;height: 40px;}
+    .contactPageDetailsSingleIco{font-size: 1.2em !important;}
+    .contactPageDetailsSingleDescriptionSubHeadingTxt{font-size: 0.7em;}
+    .contactPageDetailsSingleDescription{height: 40px;padding-left: 50px;}
+    .contactPageDetailsSingleDescriptionHeadingTxt{font-size: 1.1em;}
+    .contactPageDetailSocialSingle{width: 40px;height: 40px;}
+
+    .serviceDetailPageInner{width: 100%;padding: 0px 30px;}
+    .serviceDetailPageLeft{display: none;}
+    .serviceDetailPageRight{width: 100%;margin: 0px;}
+    .serviceDetailPageIncludesListSingle{width: 100%;}
+
+    .doctors{padding: 30px;}
+    .homeSampleCollectionMain{padding: 0px;}
+    .subHeaderFollowSingle:nth-child(4){display: none;}
+
+    .mobileNav{display: block;}
+
+    .audiometryTitleTxt{font-size: 1.3em !important;}
+    .audiometrySitemapWidth{width: 62% !important;}
+
+    .homeSampleTitleTxt{font-size: 1.5em !important;}
+    .homeSampleSitemapWidth{width: 50% !important;}
+
+    .preventiveTitleTxt{font-size: 1.3em !important;}
+    .preventiveSitemapWidth{width: 56% !important;}
+
+    .superSpecialityTitleTxt{font-size: 1.5em !important;}
+    .superSpecialitySitemapWidth{width: 53% !important;}
+}
